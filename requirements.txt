@@ -1,0 +1,7 @@
+matplotlib
+numpy
+opencv-python
+torch==1.0
+torchvision
+tensorboardX<1.6
+Pillow<7
