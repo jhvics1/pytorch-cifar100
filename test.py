@@ -9,16 +9,9 @@ author baiyu
 """
 
 import argparse
-#from dataset import *
-
-#from skimage import io
-from matplotlib import pyplot as plt
-
 import torch
-import torchvision.transforms as transforms
-from torch.utils.data import DataLoader
-from torch.autograd import Variable
 
+from torch.autograd import Variable
 from conf import settings
 from utils import get_network, get_test_dataloader
 
